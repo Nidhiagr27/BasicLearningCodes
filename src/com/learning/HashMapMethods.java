@@ -1,6 +1,7 @@
 package com.learning;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class HashMapMethods {
     public static void main(String[] args) {
@@ -21,6 +22,10 @@ public class HashMapMethods {
         copyMap1.putAll(map1);
         copyMap1.putIfAbsent("5","qwerty");
         System.out.println(copyMap1); //{null=null, 1=ab, 2=bc, 3=de, 4=null, 5=qwerty}
+
+        for(Object s:copyMap1.values()){
+            System.out.println(s);
+        }
 
         System.out.println(copyMap1.remove(null));
         System.out.println(copyMap1);//{1=ab, 2=bc, 3=de, 4=null, 5=qwerty}
