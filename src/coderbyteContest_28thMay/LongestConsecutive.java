@@ -1,4 +1,4 @@
-package Contest_28thMay;
+package coderbyteContest_28thMay;
 
 import java.util.*;
 
