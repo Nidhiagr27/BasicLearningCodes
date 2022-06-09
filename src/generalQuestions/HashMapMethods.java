@@ -1,4 +1,4 @@
-package com.learning;
+package generalQuestions;
 
 import java.util.HashMap;
 import java.util.Map;

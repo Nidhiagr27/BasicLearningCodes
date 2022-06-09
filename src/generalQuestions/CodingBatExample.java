@@ -1,4 +1,4 @@
-package com.learning;// Online Java Compiler
+package generalQuestions;// Online Java Compiler
 // Use this editor to write, compile and run your Java code online
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package com.learning;
+package generalQuestions;
 
 public class StringMethods {
     public static void main(String[] args) {
